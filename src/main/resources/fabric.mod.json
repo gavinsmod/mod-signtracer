@@ -6,19 +6,16 @@
   "description": "",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/gavinsmod/mod-template"
+    "repo": "https://github.com/gavinsmod/mod-signtracer"
   },
   "license": "MIT",
   "icon": "assets/mod-template/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": [
-      "com.peasenet.mod.Mod_template"
+      "com.peasenet.mod.SignTracerMod"
     ]
   },
-  "mixins": [
-    "mod-template.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "gavinsmod": ">=1.4.5",
