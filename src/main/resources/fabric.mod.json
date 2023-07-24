@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "mod-template",
+  "id": "gem-signtracer",
   "version": "${version}",
-  "name": "mod-template",
+  "name": "gem-signtracer",
   "description": "",
   "authors": [],
   "contact": {
     "repo": "https://github.com/gavinsmod/mod-signtracer"
   },
   "license": "MIT",
-  "icon": "assets/mod-template/icon.png",
+  "icon": "assets/gem-signtracer/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": [
@@ -18,7 +18,7 @@
   },
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "gavinsmod": ">=1.4.5",
+    "gemclient-core": ">=1.0.3",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
